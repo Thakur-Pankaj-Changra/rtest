@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&font-display=swap);
+
+body{
+	background: #282a2f;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.service{
+	background: #2d2c32;
+}
+.mainBg{
+	   width: 100%;
+    top: 20%;
+    left: 0;
+    text-align: center;
+}
+.navbar li a{
+	color: #fff
+}
+.navbar-nav{
+	margin: 0 auto;
+}
+.font-roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.banner h2{
+	font-size: 60px;
+}
+.heading-text:after{
+	  background: #e3284b;
+    width: 100px;
+    height: 2px;
+    content: '';
+    position: absolute;
+    bottom: -23px;
+    left: 45%;
+}
+.theme-tab{
+	background: #cc3542;
+}
+.tab-pane p{
+	font-size: 14px;
+}
+.tab-pane ul li{
+	font-size: 14px;
+}
+
+ .nav-pills  .nav-link{
+ 	background: #37363c;
+  }
+  .welcome{
+  	margin-top:-12%;
+  }
+  .projectImg{
+    width: 24%;
+    padding: 0px 5px 5px 0;
+  }
+
+
+.testimonial-detail{
+  background:#2d2c32;
+  width: calc(100% - 160px);
+   box-shadow: 5px 18px 19px 4px rgba(0,0,0,0.1); 
+  position: relative;
+    padding-left: 65px;
+       margin-left: -40px;
+}
+.quotes-testimonial {
+    line-height: 40px;
+    width: 48px;
+    height: 48px;
+    background: #cc3542;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: 0;
+        z-index: 2;
+ 
+
+ }
+
+ .testimonial-detail  h6:after{
+  border-top:1px solid #cc3542;
+  width: 100%;
+  height:2px;
+  bottom:0;
+  position: absolute;
+  content:'';
+  left: 0;
+    bottom: -12px;
+ }
+ .testimonialImg{
+  z-index: 1;
+  max-width: 100%;
+ }
+
+.Testimonials .carousel-inner {
+    overflow: unset;
+}
+
+.Testimonials .carousel-indicators {
+  left: 0;
+  top: auto;
+    bottom: -60px
+}
+
+/* The colour of the indicators */
+.Testimonials .carousel-indicators li {
+       background: #e3284b;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+.Testimonials .carousel-indicators .active {
+background: #4d4d4d;
+}
+
+footer{
+  background: #cc3542
+}
+header .list-inline-item span{
+  font-size: 14px;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/src/images/menuTo.svg)
+  }
+
+@media screen and (min-width: 992px) {
+.test-monial{
+        margin-top: -30px;
+ }
+}
+
+@media screen and (max-width: 991px) {
+  .quotes-testimonial{
+        top: -20px;
+  }
+  .themeNavTab .nav-pills .nav-item ,
+  .themeNavTab  .nav-pills{
+        display: inline-block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner h2 {
+      font-size: 30px;
+  }
+  h2.heading-text {
+    font-size: 1.5rem;
+}
+.welcome {
+    margin-top: 0;
+}
+.heading-text:after{
+  left: 40%
+}
+.themeNavTab .nav-link {
+    font-size: 12px;
+}
+.projectImg {
+    width: 49%;
+}
+}
+@media screen and (max-width: 575px) {
+.testimonial-detail{
+  width: 100%
+}
+.test-monial{
+      margin-left: 25px;
+}
+.quotes-testimonial {
+    left: 25px;
+}
+}
+
+.nav-link-text-white, .footer-link-text, .banner-text {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.main-bg-img {
+  width: 100%;
+}
+
+.banner-button-learn-more, .project-view-more-button {
+  color: #fff !important;
+  border-color: #fff !important;
+}
